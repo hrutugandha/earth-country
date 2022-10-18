@@ -6,6 +6,7 @@ import Overview from '../Components/Overview'
 import Reconnect from '../Components/Reconnect'
 import Slider from '../Components/Slideshow/Slider.jsx'
 import Slideshow from '../Components/Slideshow/Slideshow.jsx'
+import VideoBg from '../Components/VideoBg'
 
 const Homepage = () => {
   return (
@@ -17,6 +18,7 @@ const Homepage = () => {
     <Reconnect/>
     <Overview/>
     <Activities/>
+    <VideoBg />
     </>
   )
 }

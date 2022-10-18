@@ -14,7 +14,7 @@ const Navbar = () => {
         <Logo>
           <Image
             fallbackSrc="https://via.placeholder.com/150"
-            height={"150px"}
+            height={"100%"}
             marginLeft={"5rem"}
             borderRadius={"0"}
             width={"-moz-fit-content"}
@@ -105,6 +105,7 @@ const Wrapper = styled.div`
 const Logo = styled.div`
   height: 100%;
   width: 20%;
+  overflow: visible;
 `;
 
 export default Navbar;

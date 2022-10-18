@@ -1,4 +1,4 @@
-import { Button, Image, Spacer, Text} from '@chakra-ui/react'
+import { Button, Image, Text} from '@chakra-ui/react'
 import React from 'react'
 import styled from 'styled-components'
 import about from "../Utils/about6-1024x1024.jpg"

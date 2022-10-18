@@ -93,7 +93,7 @@ const Container = styled.div`
   height: 120px;
   width: 100%;
   position: sticky;
-  background-color: #474747;
+  background-color: #444444;
 `;
 const Wrapper = styled.div`
   width: 96%;

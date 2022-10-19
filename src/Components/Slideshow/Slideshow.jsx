@@ -33,7 +33,7 @@ const slideImages = [
          {slideImages.map((slideImage, index)=> (
               <SlideDiv key={index}>
                 <Image width="100%" src={`${slideImage.url}`} />
-                <Link to="/form">
+                <Link href="/form">
                  <Button onClick={(e) => show(e)} margin="0px" transform= "translate(-50%, -50%)" position= "sticky" h="56px" w={"160px"}  marginLeft={"1000px"} marginTop="-140px" marginBottom={"0px"} colorScheme="green">
                   Know More</Button>
                   </Link>

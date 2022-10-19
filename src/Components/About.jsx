@@ -1,5 +1,6 @@
 import { Button, Image, Text} from '@chakra-ui/react'
 import React from 'react'
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import about from "../Utils/about6-1024x1024.jpg"
 
@@ -29,7 +30,9 @@ const About = () => {
 From all essentials like banks, hospitals, restaurants, schools, and petrol pumps in proximity to the project to Malls and Theatres, Earth County brings you closer to the ideal life!
             </Text>
             <br/>
-            <Button variant='outline' marginTop={"10px"} colorScheme="green" >Book Site Visit</Button>
+            <Link to="/form">
+                <Button variant='outline' marginTop={"10px"} colorScheme="green" >Book Site Visit</Button>
+            </Link>
         </Info>
     </Container>
   )

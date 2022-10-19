@@ -16,6 +16,7 @@ import {
     useColorModeValue,
   } from '@chakra-ui/react'
   import * as React from 'react'
+import Navbar from '../Navbar/Navbar';
 
 const Form = () => {
 
@@ -25,6 +26,7 @@ const Form = () => {
 
     return (
       <div>
+        <Navbar/>
        <Container maxW="lg" py={{ base: '12', md: '24' }} px={{ base: '0', sm: '8' }}>
       <Stack spacing="8">
         <Stack spacing="6">

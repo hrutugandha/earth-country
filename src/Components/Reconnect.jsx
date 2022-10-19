@@ -1,5 +1,6 @@
 import { Button, Image, Text } from "@chakra-ui/react";
 import React from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import subImage from '../Utils/sub-event.png'
 
@@ -22,6 +23,7 @@ const Reconnect = () => {
           to reconnect!
         </Text>
         <br />
+        <Link to="/form">
         <Button
           variant="outline"
           marginTop={"10px"}
@@ -30,6 +32,7 @@ const Reconnect = () => {
         >
           Book Free Site Visit
         </Button>
+        </Link>
         <br />
         <Heading marginTop="40px" marginBottom="0px">
           The <i>Sub-Events</i>

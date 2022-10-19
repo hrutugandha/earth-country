@@ -1,7 +1,7 @@
 import React from "react";
 import "./navbar.module.css";
 import styled from "styled-components";
-import { Image } from "@chakra-ui/react";
+import { Image, Link } from "@chakra-ui/react";
 import facebook from '../../Utils/icons8-facebook-30.png'
 import instagram from '../../Utils/icons8-instagram-30.png'
 import linkedin from '../../Utils/icons8-linkedin-circled-30.png'
@@ -36,6 +36,7 @@ const Navbar = () => {
             </h1>
           </Numdiv>
           <Icondiv>
+          <Link href="https://www.facebook.com/earthcountyofficial">
           <Image
               fallbackSrc="https://via.placeholder.com/60"
               backgroundColor={"#fff"}
@@ -45,7 +46,9 @@ const Navbar = () => {
               borderRadius={"15px"}
               marginTop="10px"
             />
-            <Image
+          </Link>
+           <Link href="https://www.instagram.com/earthcounty.official/">
+           <Image
               fallbackSrc="https://via.placeholder.com/60"
               backgroundColor={"#fff"}
               src={instagram}
@@ -53,7 +56,8 @@ const Navbar = () => {
               maxWidth={"30px"}
               borderRadius={"15px"}
               marginTop="10px"
-            />
+            /></Link>
+            <Link href="https://www.linkedin.com/company/earth-county-official/">
             <Image
               fallbackSrc="https://via.placeholder.com/60"
               backgroundColor={"#fff"}
@@ -62,7 +66,7 @@ const Navbar = () => {
               maxWidth={"30px"}
               borderRadius={"15px"}
               marginTop="10px"
-            />
+            /></Link>
           </Icondiv>
         </Infodiv>
       </Wrapper>

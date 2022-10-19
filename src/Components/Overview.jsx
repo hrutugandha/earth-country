@@ -5,6 +5,7 @@ import leaves from "../Utils/neve-patterns-8.jpg";
 import img1 from "../Utils/music.png";
 import img2 from "../Utils/binoculars.png";
 import img3 from "../Utils/tree.png";
+import { Link } from "react-router-dom";
 
 const styles = {
   header: {
@@ -67,6 +68,7 @@ const Overview = () => {
               </p>
             </Content>
           </ContentDiv>
+          <Link to="/form">
           <Button
             marginTop={"50px"}
             colorScheme="green"
@@ -74,7 +76,7 @@ const Overview = () => {
             background="#fff"
           >
             Book Site Visit
-          </Button>
+          </Button></Link>
         </Wrapper>
       </div>
     </div>

@@ -16,6 +16,7 @@ import {
     useColorModeValue,
   } from '@chakra-ui/react'
   import * as React from 'react'
+import Footer from '../Footer';
 import Navbar from '../Navbar/Navbar';
 
 const Form = () => {
@@ -76,6 +77,7 @@ const Form = () => {
         </Box>
       </Stack>
     </Container>
+    <Footer />
       </div>
     );
   }

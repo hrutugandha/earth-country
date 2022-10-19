@@ -27,8 +27,14 @@ const VideoBg = () => {
         width="100%"
         height="100%"
       />
-      <Box className={styles.overlay}>
-      <Text variant="h3">
+      <Box className={styles.overlay}
+      height="100%"
+      display="flex"
+      flexDirection="column"
+      justifyContent="center"
+      alignItems="center"
+      color="#fff">
+      <Text>
             Title Goes Here
           </Text>
           <Button color="primary" variant="contained">
@@ -41,7 +47,7 @@ const VideoBg = () => {
 };
 
 const Container = styled.div`
-  height: 300px;
+  height: 380px;
   border: 1px solid black;
   width: 100%;
   overflow: hidden;

@@ -16,14 +16,11 @@ import {
     useColorModeValue,
   } from '@chakra-ui/react'
   import * as React from 'react'
-  import { Logo } from './Logo'
-  import { OAuthButtonGroup } from './OAuthButtonGroup'
-  import { PasswordField } from './PasswordField'
 
 const Form = () => {
 
     
-setTimeout(()=> alert("hello"),5000) 
+// setTimeout(()=> alert("hello"),5000) 
 // onClick={()=>this.popupBox()}
 
     return (
@@ -31,7 +28,6 @@ setTimeout(()=> alert("hello"),5000)
        <Container maxW="lg" py={{ base: '12', md: '24' }} px={{ base: '0', sm: '8' }}>
       <Stack spacing="8">
         <Stack spacing="6">
-          <Logo />
           <Stack spacing={{ base: '2', md: '3' }} textAlign="center">
             <Heading size={useBreakpointValue({ base: 'xs', md: 'sm' })}>
               Log in to your account
@@ -57,7 +53,6 @@ setTimeout(()=> alert("hello"),5000)
                 <FormLabel htmlFor="email">Email</FormLabel>
                 <Input id="email" type="email" />
               </FormControl>
-              <PasswordField />
             </Stack>
             <HStack justify="space-between">
               <Checkbox defaultChecked>Remember me</Checkbox>
@@ -74,7 +69,6 @@ setTimeout(()=> alert("hello"),5000)
                 </Text>
                 <Divider />
               </HStack>
-              <OAuthButtonGroup />
             </Stack>
           </Stack>
         </Box>
